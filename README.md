@@ -1,28 +1,49 @@
-# merenkay / kişisel portfolyo
+﻿# merenkay — Kişisel Portfolyo
 
-Bilkent bilgisayar mühendisliği öğrencisi merenkay için tek sayfalık, Türkçe portfolyo. Saf HTML, CSS ve JavaScript; derleme veya paket kurulumu gerekmez.
+Bilkent Üniversitesi bilgisayar mühendisliği öğrencisi **merenkay**'ın ilgi alanlarını ve proje konseptlerini sunan, tek sayfalık Türkçe portfolyo sitesi.
 
-## Yerelde aç
+**[Canlı siteyi ziyaret et ↗](https://merenkay.github.io/websitedemo/)**
 
-`index.html` dosyasını tarayıcıda aç. Google Fonts internet bağlantısı kullanır; çevrimdışı durumda sistem yazı tipleri devreye girer.
+## Proje hakkında
 
-## İçerik
+Algoritmalar, robotik, veri işleme, bulut teknolojileri ve web geliştirme etrafında şekillenen bu portfolyo; sade bir arayüzü etkileşimli öğelerle birleştirir. Koyu zemin ve yeşil vurgular üzerine kurulan tasarım, masaüstü ve mobil ekranlara uyum sağlar.
 
-- Mobil uyumlu koyu tasarım, yeşil vurgular
+## Özellikler
+
 - Yeniden çalıştırılabilen yol görselleştirmesi
-- Kategori filtreleri ve klavyeyle kullanılabilen proje pencereleri
-- Azaltılmış hareket tercihi desteği
+- Kategorilere göre filtrelenebilen proje kartları
+- Proje konseptlerini açıklayan detay pencereleri
+- Klavye ile gezinme, içerik atlama bağlantısı ve azaltılmış hareket tercihi desteği
+- GitHub profiline doğrudan erişim
 
-Proje adları ve açıklamaları kurgusal örneklerdir. Gerçek proje, yarışma katılımı veya başarı iddiası değildir. Ad olarak yalnızca **merenkay** kullanılır. İletişim bağlantıları GitHub profiline gider.
+## Kullanılan teknolojiler
 
-## GitHub'a yükleme ve GitHub Pages ile yayınlama
+Site **HTML, CSS ve JavaScript** ile geliştirilmiştir. Bir framework, paket kurulumu veya derleme adımı gerektirmez. Yazı tipleri Google Fonts üzerinden yüklenir; bağlantı olmadığında sistem yazı tipleri kullanılır. Yayın GitHub Pages üzerinde barındırılır.
 
-1. GitHub hesabınla https://github.com/merenkay/websitedemo adresini aç. Depo yoksa sağ üstteki **+ → New repository** ile `websitedemo` adlı **Public** depo oluştur.
-2. Depoda **Add file → Upload files** seç. Boş depoda **uploading an existing file** bağlantısını kullan.
-3. Bu klasördeki `index.html`, `style.css`, `script.js` ve `README.md` dosyalarını sürükle. Dosyalar deponun kökünde olmalı; `websiteDemo` adlı alt klasöre koyma.
-4. **Commit changes** ile yüklemeyi tamamla.
-5. **Settings → Pages → Build and deployment** altında **Source: Deploy from a branch** seç.
-6. **Branch: main**, klasör **/ (root)** seç ve **Save** düğmesine bas. Ana dalın adı farklıysa dosyaları yüklediğin dalı seç.
-7. Yayın işlemini **Actions** sekmesinden izle. Tamamlandığında siten: https://merenkay.github.io/websitedemo/
+## Yerel çalıştırma
 
-GitHub'a dosya yüklemek ile web sitesini yayınlamak ayrı işlemlerdir; Pages ayarı ikincisini tamamlar. Mevcut bir depoda aynı adlı dosyalar varsa yüklemeden önce değişikliklerini incele.
+Depo klonlandıktan sonra `index.html` dosyası bir tarayıcıda açılabilir:
+
+```sh
+git clone https://github.com/merenkay/websitedemo.git
+cd websitedemo
+```
+
+## Dosya yapısı
+
+```text
+websitedemo/
+├── index.html   # Sayfa yapısı ve içerik
+├── style.css    # Tasarım ve responsive düzenler
+├── script.js    # Görselleştirme, filtreler ve proje pencereleri
+└── README.md    # Proje dokümantasyonu
+```
+
+## İçerik notu
+
+Orbit Data, Mission: Solve, Focus Workspace ve Path / Lab, portfolyonun sunumunu örneklemek için oluşturulmuş kurgusal proje konseptleridir. Gerçek proje teslimi, yarışma katılımı veya başarı iddiası taşımazlar.
+
+## Bağlantılar
+
+- [Portfolyo](https://merenkay.github.io/websitedemo/)
+- [GitHub profili](https://github.com/merenkay)
